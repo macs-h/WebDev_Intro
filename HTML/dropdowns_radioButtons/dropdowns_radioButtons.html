@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dropdowns and Radio Buttons</title>
+</head>
+<body>
+    <h1>Dropdowns and radio buttons</h1>
+    <p>Select one or the other:</p>
+    <form>
+        <label for="dogs">Dogs: </label>
+        <!--
+            name: links up radio buttons to ensure only one can be selected at any time.
+            id: identifier
+            type: type of input
+            value: the value to be sent from the form.
+         -->
+        <input name="petChoice" id="dogs" type="radio" value="dogs">
+
+        <label for="cats">Cats: </label>
+        <input name="petChoice" id="dogs" type="radio" value="cats">
+
+
+        <p>Pick your favourite colour:</p>
+        <select name="color">
+            <option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+        </select>
+
+
+        <!-- Any button at the end of a form will function as a submission button. -->
+        <button>Go!</button>
+
+
+    </form>
+</body>
+</html>

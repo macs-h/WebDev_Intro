@@ -29,3 +29,7 @@ a[href="http://www.google.com"] {
 ul:nth-of-type(3) {
     background: purple;
 }
+
+li:nth-of-type(even) {
+    background: pink;
+}

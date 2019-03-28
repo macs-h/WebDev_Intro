@@ -1,0 +1,31 @@
+/* `*` - Wildcard selector */
+* {
+    border: 1px solid lightgrey;
+}
+
+
+/* Descendent selector - selects all elements that are descendants of an element */
+/* Currently selects all anchor tags (`a`) within an `li` */
+li a { 
+    color: red;
+}
+
+
+/* Adjacent selector - selects elements that come after another element (a sibling element) at the same level */
+h4 + ul {
+    border: 4px solid red;
+}
+
+
+/* Atribute selector - a way to select elements based off of any attribute */
+/* Currently selects all anchor tags with the corresponding href link */
+a[href="http://www.google.com"] {
+    background: blue;
+}
+
+
+/* nth of type - selects every nth element */
+/* Currently selects the 3rd element of a group of `ul` */
+ul:nth-of-type(3) {
+    background: purple;
+}

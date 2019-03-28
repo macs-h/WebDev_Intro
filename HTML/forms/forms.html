@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Practice</title>
+</head>
+<body>
+    <h1>Login</h1>
+
+
+    <!-- `action` is the page to go to after the form is submitted. -->
+    <form action="http://google.co.nz/">
+
+        <!-- `for` specifies an id to later be used to reference this. -->
+        <label for="username">Username:</label>
+        <!--
+            `id` references a label identifier - connects the two elements together.
+            `input` creates an input field.
+            `type` defines the expected type of input.
+            `required` is a bool - simple text validation. Varies depending on browser.
+        -->
+        <input id="username" type="text" placeholder="username" required>
+
+        <label for="password">Password:</label>
+        <input id="password" type="text" placeholder="password">
+
+        <label for="email">Email:</label>
+        <!--
+            Because the type is email, it will validate based on format of an expected email address.
+        -->
+        <input id="email" type="email" placeholder="email" required>
+
+
+        <!-- Creates a button labelled submit - because of type `submit`. -->
+        <input type="submit">
+    </form>
+
+
+</body>
+</html>

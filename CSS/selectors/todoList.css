@@ -1,0 +1,21 @@
+/*
+    Syntax for CSS selectors:
+        `element` - applies style to all elements of type `element`.
+        `#elementID` - applies style to elements with id of `elementID`
+        `.className` - applies style to elements with class of `className`.
+*/
+
+/* Element selector */
+li {
+    border: 2px solid red;
+}
+
+/* ID selector */
+#special {
+    background: yellow;
+}
+
+/* Class selector */
+.completed {
+    text-decoration: line-through;
+}

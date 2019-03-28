@@ -1,0 +1,38 @@
+h1 {
+    /* Hex: RR GG BB */
+    color: #FF0000;
+
+    /*
+        `border` has three properties: width, style, color
+        Shorthand syntax: `border: width style color`
+
+            border: 5px solid purple;
+    */
+    border-color: purple;
+    border-width: 5px;
+    border-style: solid;
+
+}
+
+h4 {
+    /* rgb/rgba */
+    background: rgba(0, 255, 0, 1);
+}
+
+li {
+    color: pink;
+}
+
+body {
+    background: brown;
+
+    /*
+        Can use `url` for an image background.
+        `background-repeat` set as `no-repeat` means no tiling effect.
+        `background-size` set as `cover` stretches out the background.
+
+    background: url(http://www.alpiwood.com/media/categories/10.26%20tb-59564c67c07bf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+}

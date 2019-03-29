@@ -1,0 +1,47 @@
+/* Font family */
+p {
+    font-family: Arial;
+}
+
+h1 {
+    font-family: Georgia;
+}
+
+
+/* Font size */
+h1 {
+    font-size: 30px;
+}
+
+/* `em` - the size of an em value is dynamic. It is equal to the size of the font that applies to the parent of the element in question. */
+span {
+    font-size: 2em;
+}
+
+/* Font weights */
+p {
+    font-weight: bold;
+}
+
+/* Line heights */
+p {
+    line-height: 1.5;
+}
+
+/* Text align */
+h1 {
+    text-align: right;
+}
+
+p {
+    text-align: center;
+}
+
+/* Text decoration */
+p {
+    text-decoration: underline;
+}
+
+h1 {
+    text-decoration: line-through;
+}
